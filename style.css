@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.;
+    color: #333;
+    background-color: #f9f9f9;
+    background-image: url(../../XAMPP/htdocs/siakad/images/material.jpg);
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #007acc;
+    background-image: url(../../XAMPP/htdocs/siakad/images/flat-3.jpg);
+    color: #fff;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.profession {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: rgb(239, 236, 236);
+    text-decoration: none;
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #007acc;
+    margin-bottom: 1rem;
+}
+
+article {
+    margin-bottom: 1.5rem;
+}
+
+.company, .institution {
+    font-weight: bold;
+    color: #333;
+}
+
+.date {
+    font-style: italic;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #453913e1;
+    color: #fff;
+    margin-top: 2rem;
+}
+
